@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ydu"
+version = "0.1.0"
+description = "whY Dont yoU - natural language file finder and mover"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.9"
+
+[project.scripts]
+ydu = "ydu.cli:main"
